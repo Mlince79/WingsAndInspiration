@@ -1,5 +1,16 @@
+.row {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
 
-/* ------------------------------------------------Navalert*/
+.col-12 {
+    padding: 0;
+}
+
+body {
+    font-family: 'Sunflower', sans-serif;
+}
 .navalert-container {
     position: absolute;
     top: 0;
@@ -11,7 +22,7 @@
     margin: 0;
     width: 100%;
 }
-/* ------------------------------------------------Header*/
+
 .brand-header-tex-wrapper.no-gutters {
     font-family: 'Sacramento', cursive;
     font-size: 70px;
@@ -27,6 +38,7 @@
 }
 
 .logo {
+    float: center;
     justify-content: center;
     text-align: center;
     margin-top: 20px;
@@ -34,12 +46,142 @@
     width: 100%;
 }
 
-@media screen (max-width: 500px) {
-    .logo {
+
+.navbar-brand {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: -3rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+    margin-left: 20px;
+}
+
+.navbar {
+    margin-left: 0;
+    border: 0;
+    background-color: #5D5D5D;
+    font-size: 20px;
+    width: 100%;
+    font-family: 'Sunflower', sans-serif;
+    padding: 0;
+}
+
+.callout-container {
+    height: 90vh;
+    background: url("assets/images/team2.jpg");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: top;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+    font-family: 'Sunflower', sans-serif;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(12, 22, 24, 0.5);
+}
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron h1 {
+    color: white;
+    font-weight: bold;
+    margin-top: 250px;
+    font-family: 'Sunflower', sans-serif;
+}
+.jumbotron .lead {
+    margin: 25px 0;
+    font-size: 150%;
+    color: #fff;overflow-x:
+    font-family: 'Sunflower', sans-serif;
+}
+
+.block-divider {
+    width: 150px;
+    height: 0px;
+    border: 4px solid #B66D7C;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.btn--red {
+    color:white;
+    background-color: #B66D7C;
+    border-color: #B66D7C;
+    margin-top: 20px;
+}
+
+footer {
+    font-family: 'Sunflower', sans-serif;
+    background-color: #fff;
+    color:#525252;
+    min-height: 120px;
+    margin: 10px;
+    text-align: right;
+    justify-content: center;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background-color: #B66D7C;
+}
+
+#footer-details {
+    padding: 20px;
+}
+@media only screen and (max-width: 600px) {
+        .logo {
         font-size: 45px;
         color: #5D5D5D;
         justify-content: center;
         text-align: center;
         margin-top: 40px;
-          }
+  }
+    .btn--red {
+        margin: 0;
+    }
+
+    .jumbotron .lead {
+        margin: 0;
+    }
+
+    .jumbotron h1 {
+        margin-top: 250px;
+        font-size: 30px;
+    }
 }
