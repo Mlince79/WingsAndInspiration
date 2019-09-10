@@ -134,6 +134,12 @@ a {
     margin-top: 20px;
 }
 
+/*aboutMe*/
+
+.content-area {
+    min-height: 559px;
+}
+
 footer {
     font-family: 'Sunflower', sans-serif;
     background-color: #fff;
