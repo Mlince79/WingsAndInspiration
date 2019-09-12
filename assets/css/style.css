@@ -1,4 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Sunflower:100, 200, 300, 400, 500, 600, 700');
+
+header {
+    margin: 0;
+}
+
+.heading {
+    margin: 0;
+}
+
 h3 {
+    margin: 0;
+}
+
+section {
     margin: 0;
 }
 
@@ -6,6 +20,7 @@ h3 {
     width: 100%;
     margin: 0;
     padding: 0;
+    border: 2px solid red;
 }
 
 .col-12 {
@@ -19,15 +34,9 @@ h3 {
 }
 
 .section-heading {
-    font-family: "Exo", sans-serif;
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 40px;
-}
-
-
-body {
-    font-family: 'Sunflower', sans-serif;
 }
 
 a {
@@ -51,7 +60,6 @@ article {
     padding: 0;
     z-index: 1;
     background-color: #B66D7C;
-    font-family: 'Sunflower', sans-serif;
     margin: 0;
     width: 100%;
 }
@@ -96,7 +104,6 @@ article {
     background-color: #5D5D5D;
     font-size: 20px;
     width: 100%;
-    font-family: 'Sunflower', sans-serif;
     padding: 0;
 }
 
@@ -112,7 +119,6 @@ article {
     justify-content: center;
 
     position: relative;
-    font-family: 'Sunflower', sans-serif;
 }
 
 .opaque-overlay {
@@ -132,13 +138,11 @@ article {
     color: white;
     font-weight: bold;
     margin-top: 250px;
-    font-family: 'Sunflower', sans-serif;
 }
 .jumbotron .lead {
     margin: 25px 0;
     font-size: 150%;
     color: #fff;
-    font-family: 'Sunflower', sans-serif;
 }
 
 .block-divider {
@@ -164,10 +168,38 @@ article {
       clear: both;
   }
 
-  /*--aboutMe--*/
+  .denisse {
+      background: url("../images/IMG_8451Baja.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      min-height: 800px;
+      transition: all 5s ease-in-out;
+      -moz-transition: all 5s ease-in-out;
+      -webkit-transition: all 5s ease-in-out;
+  }
+
+.bg-color-name-title {
+    background-color:#B66D7C;
+}
+
+.name {
+    font-weight: 100;
+    font-size: 46px;
+    margin-top: 20px;
+    color: #fff;
+}
+
+.title {
+    font-weight: 200;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 90px;
+    color: white;
+}
+/*--aboutMe--*/
 
 footer {
-    font-family: 'Sunflower', sans-serif;
     background-color: #fff;
     color:#525252;
     min-height: 120px;
