@@ -1,24 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Sunflower:100, 200, 300, 400, 500, 600, 700');
 
-header {
-    margin: 0;
+.uppercase {
+    text-transform: uppercase;
 }
 
-.heading {
-    margin: 0;
-}
-
-h3 {
-    margin: 0;
-}
-
-section {
-    margin: 0;
-}
-
+/*-------------------------------------------------MarginsAndPaddings*/
 .row {
-    width: 100%;
-    margin: 0;
     padding: 0;
     border: 2px solid red;
 }
@@ -27,17 +14,7 @@ section {
     padding: 0;
 }
 
-.section-column {
-    display: table-cell;
-    padding: 0 30px 30px;
-    float: none;
-}
-
-.section-heading {
-    font-weight: 300;
-    margin-top: 25px;
-    margin-bottom: 40px;
-}
+/*-------------------------------------------------Home*/
 
 a {
     color: #fff;
@@ -54,6 +31,7 @@ article {
 }
 
 .navalert-container {
+
     position: absolute;
     top: 0;
     left: 0;
@@ -72,7 +50,7 @@ article {
     text-align: left;
     color: #5D5D5D;
     background-color: #fff;
-    height: 150px;
+    height: 200px;
     margin: 0;
     width: 100%;
     padding: 0;
@@ -81,7 +59,7 @@ article {
 .logo {
     justify-content: center;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 70px;
     padding: 0;
     width: 100%;
 }
@@ -137,11 +115,11 @@ article {
 .jumbotron h1 {
     color: white;
     font-weight: bold;
-    margin-top: 250px;
 }
+
 .jumbotron .lead {
     margin: 25px 0;
-    font-size: 150%;
+    font-size: 200%;
     color: #fff;
 }
 
@@ -160,16 +138,27 @@ article {
     margin-top: 20px;
 }
 
-/*--aboutMe--*/
+/*-------------------------------------------------Home*/
 
+.section-column {
+    display: table-cell;
+    padding: 10;
+    float: none;
+}
+
+.section-heading {
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
   .personal-info-item {
-      margin-bottom: 20px;
+      margin-bottom: 50px;
       display: block;
       clear: both;
   }
 
   .denisse {
-      background: url("../images/IMG_8451Baja.jpg");
+      background: url("../images/Denisse.jpg");
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -179,15 +168,11 @@ article {
       -webkit-transition: all 5s ease-in-out;
   }
 
-.bg-color-name-title {
-    background-color:#B66D7C;
-}
-
 .name {
     font-weight: 100;
     font-size: 46px;
-    margin-top: 20px;
-    color: #fff;
+    margin-top: 50px;
+    color: #B66D7C;
 }
 
 .title {
@@ -195,9 +180,26 @@ article {
     font-size: 28px;
     margin-top: 20px;
     margin-bottom: 90px;
-    color: white;
+    color: #B66D7C;
 }
-/*--aboutMe--*/
+.heading {
+    margin: 0;
+    min-height: 800px;
+    margin-left:20px;
+    margin-right: 20px;
+}
+
+h3 {
+    margin: 0;
+}
+
+.history-heading {
+    font-weight: 300;
+    font-size: 24px;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+/*-------------------------------------------------Footer*/
 
 footer {
     background-color: #fff;
@@ -233,6 +235,8 @@ footer {
     padding: 20px;
 }
 
+/*-------------------------------------------------Responsive*/
+
 @media only screen and (max-width: 600px) {
         .logo {
         font-size: 45px;
@@ -250,8 +254,7 @@ footer {
     }
 
     .jumbotron h1 {
-        margin-top: 250px;
-        font-size: 30px;
+        font-size: 40px;
     }
 
     .social-links {
