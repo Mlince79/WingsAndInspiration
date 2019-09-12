@@ -18,6 +18,10 @@ a {
     background-color: transparent;
 }
 
+article {
+    display: block;
+}
+
 .not_visible {
     display: none;
 }
@@ -134,11 +138,15 @@ a {
     margin-top: 20px;
 }
 
-/*aboutMe*/
+/*--aboutMe--*/
 
-.content-area {
-    min-height: 559px;
-}
+  .personal-info-item {
+      margin-bottom: 20px;
+      display: block;
+      clear: both;
+  }
+
+  /*--aboutMe--*/
 
 footer {
     font-family: 'Sunflower', sans-serif;
