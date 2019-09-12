@@ -7,7 +7,6 @@
 /*-------------------------------------------------MarginsAndPaddings*/
 .row {
     padding: 0;
-    border: 2px solid red;
 }
 
 .col-12 {
