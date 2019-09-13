@@ -170,7 +170,8 @@ article {
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
-      min-height: 800px;
+      max-width: 100%;
+      height: auto;
       transition: all 5s ease-in-out;
       -moz-transition: all 5s ease-in-out;
       -webkit-transition: all 5s ease-in-out;
@@ -201,14 +202,28 @@ h3 {
     margin: 0;
 }
 
+.myCoaching-heading,
 .history-heading {
     font-weight: 300;
-    font-size: 24px;
+    font-size: 16px;
     margin-top: 25px;
     margin-bottom: 40px;
 }
 
 /*-------------------------------------------------myCoaching*/
+  .denisse2 {
+      background: url("../images/Denisse_2.jpg");
+      background-position-x: 10px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      min-height: 800px;
+      transition: all 5s ease-in-out;
+      -moz-transition: all 5s ease-in-out;
+      -webkit-transition: all 5s ease-in-out;
+  }
+.mycoaching-name {
+    margin-bottom: 100px;
+}
 
 .myCoaching-container {
     height: 90vh;
