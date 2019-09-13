@@ -21,6 +21,11 @@ a {
     background-color: transparent;
 }
 
+ a:hover {
+    color: #B66D7C;
+    text-decoration: none;
+}
+
 article {
     display: block;
 }
@@ -84,12 +89,16 @@ article {
     padding: 0;
 }
 
+.navbar-toggler {
+    border: 1px solid transparent;
+}
+
 .callout-container {
     height: 90vh;
     background: url("https://github.com/Mlince79/WingsAndInspiration/blob/master/assets/images/team2.jpg?raw=true");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top;
+    background-position: center;
 
     display: flex;
     align-items: center;
@@ -137,7 +146,7 @@ article {
     margin-top: 20px;
 }
 
-/*-------------------------------------------------Home*/
+/*-------------------------------------------------aboutMe*/
 
 .section-column {
     display: table-cell;
@@ -198,6 +207,26 @@ h3 {
     margin-top: 25px;
     margin-bottom: 40px;
 }
+
+/*-------------------------------------------------myCoaching*/
+
+.myCoaching-container {
+    height: 90vh;
+
+}
+
+.reviews-container {
+    height: 90vh;
+
+}
+
+.form-container {
+    height: 90vh;
+
+}
+
+
+
 /*-------------------------------------------------Footer*/
 
 footer {
@@ -230,6 +259,8 @@ footer {
     background-color: #B66D7C;
 }
 
+
+
 #footer-details {
     padding: 20px;
 }
@@ -238,11 +269,11 @@ footer {
 
 @media only screen and (max-width: 600px) {
         .logo {
-        font-size: 45px;
+        font-size: 50px;
         color: #5D5D5D;
         justify-content: center;
         text-align: center;
-        margin-top: 40px;
+        margin-top: 55px;
   }
     .btn--red {
         margin: 0;
@@ -257,12 +288,16 @@ footer {
     }
 
     .social-links {
-        padding: 10px 88px;
+        padding: 20px 110px;
     }
 
     .block-divider {
         margin-top: 25px;
         margin-bottom: 25px;
+    }
+
+    .hidden-sm-down {
+        display: none;
     }
 }
 
