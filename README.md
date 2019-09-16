@@ -23,7 +23,7 @@ She wants to increase her contact with newcomers' women in Sweden. So users will
 Now, there are several groups created by Expat women where they can help each other. However, there is no personal coaching service offered.
 
 
-###Website design and style :
+### Website design and style :
 - Approachable
 - Caring
 - Natural/Organic
@@ -43,7 +43,8 @@ The whole scope [here] (https://github.com/Mlince79/WingsAndInspiration/blob/mas
 The scope level in phase 1 will be:
 - Home - where the user can read a callout and book a first 30 min free session. 
 - About me - the user will get to know Denisse's biography. 
-- My coaching - the user will get to know about Denisse coaching, her reviews, and will be able to fill out a form to book a free meeting.
+- My coaching - the user will get to know about Denisse coaching, and her reviews.
+-On big screens a Nav-alert will be visible offering the 30 min free session. 
 
 ### Features Left to Implement
 
@@ -54,3 +55,36 @@ The scope level in phase 1 will be:
 - HTML
 - CSS
 - Bootstrap (3.3.7)
+
+## Testing
+As soon as women arrive at the Home, they will see a clear offer. In the "About Me" section, they can read a bit about Denisse's background, and her photo.  
+They can request a free 30 min session leaving just their email and a short message about them. 
+If the user tries to submit the contact form with an invalid email address, there will be an error noting the invalid email address. 
+
+They are also able to view Denisse's social media profiles via clicking on the icons in the footer. All links will open in a new tab using 'target="_blank"'
+
+It is a responsive website. 
+This site has been tested across multiple browsers (Chrome, Safari, Internet Explorer, FireFox) and on multiple mobile devices (iPhone 4, 5, 7: Chrome and Safari, iPad, Samsung Galaxy)
+
+HTML and CSS code were both validated at the following pages:
+- https://validator.w3.org/#validate_by_uri+with_options
+- https://jigsaw.w3.org/css-validator/
+
+## Deployment
+
+This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named index.html.
+
+To run locally, the user can clone this repository directly into the editor of their choice by pasting git clone https://github.com/Mlince79/WingsAndInspiration.git into their terminal.
+
+## Credits
+
+### Content
+- The sections were planed based on the exercises done on the course. 
+
+### Media
+- The photos used in this site are from the owner of the project. 
+
+### Acknowledgements
+
+- I have received inspiration for this project, Denisse Olsson. 
+
