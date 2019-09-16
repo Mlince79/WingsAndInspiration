@@ -35,7 +35,6 @@ article {
 }
 
 .navalert-container {
-
     position: absolute;
     top: 0;
     left: 0;
@@ -89,7 +88,7 @@ article {
     padding: 0;
 }
 
-.navbar-toggler {
+ .navbar .navbar-toggler {
     border: 1px solid transparent;
 }
 
@@ -139,12 +138,20 @@ article {
     margin-bottom: 50px;
 }
 
+
+.btn-cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
+
 .btn--red {
     color:white;
     background-color: #B66D7C;
-    border-color: #ffffff;
+    border-color: #B66D7C;
     margin-top: 20px;
 }
+
 
 /*-------------------------------------------------aboutMe*/
 
@@ -213,7 +220,8 @@ h3 {
 /*-------------------------------------------------myCoaching*/
   .denisse2 {
       background: url("../images/Denisse_2.jpg");
-      background-position-x: 10px;
+      background-position: center;
+      background-position-x: -20px;
       background-repeat: no-repeat;
       background-size: cover;
       min-height: 800px;
@@ -221,26 +229,56 @@ h3 {
       -moz-transition: all 5s ease-in-out;
       -webkit-transition: all 5s ease-in-out;
   }
+
 .mycoaching-name {
     margin-bottom: 100px;
 }
 
-.myCoaching-container {
-    height: 90vh;
-
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
 }
 
-.reviews-container {
-    height: 90vh;
+.page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
 
+.page-header h2 {
+    margin-top: 0;
+}
+
+.quotes .page-header {
+    margin-bottom: 25px;
+}
+
+.fa {
+    height: 15px;
+    text-align: center;
+    padding: 0;
+}
+ i {
+     color: #B66D7C;
+ }
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.container-wrapper--pink {
+    background-color: #B66D7C;
+    color:#fff;
 }
 
 .form-container {
-    height: 90vh;
-
+    text-align: center;
+    margin-bottom: 40px;
 }
-
-
 
 /*-------------------------------------------------Footer*/
 
