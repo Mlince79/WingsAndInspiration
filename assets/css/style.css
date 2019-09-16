@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Sunflower:100, 200, 300, 400, 500, 600, 700');
+@import url('https://fonts.googleapis.com/css?family=Sunflower:300&display=swap');
 
 .uppercase {
     text-transform: uppercase;
@@ -65,6 +65,7 @@ article {
     margin-top: 70px;
     padding: 0;
     width: 100%;
+    font-size: 70px;
 }
 
 
@@ -149,7 +150,6 @@ article {
     color:white;
     background-color: #B66D7C;
     border-color: #B66D7C;
-    margin-top: 20px;
 }
 
 
@@ -157,7 +157,7 @@ article {
 
 .section-column {
     display: table-cell;
-    padding: 10;
+    padding: 10px;
     float: none;
 }
 
@@ -180,8 +180,6 @@ article {
       max-width: 100%;
       height: auto;
       transition: all 5s ease-in-out;
-      -moz-transition: all 5s ease-in-out;
-      -webkit-transition: all 5s ease-in-out;
   }
 
 .name {
@@ -212,7 +210,7 @@ h3 {
 .myCoaching-heading,
 .history-heading {
     font-weight: 300;
-    font-size: 16px;
+    font-size: 18px;
     margin-top: 25px;
     margin-bottom: 40px;
 }
@@ -221,13 +219,10 @@ h3 {
   .denisse2 {
       background: url("../images/Denisse_2.jpg");
       background-position: center;
-      background-position-x: -20px;
       background-repeat: no-repeat;
       background-size: cover;
       min-height: 800px;
       transition: all 5s ease-in-out;
-      -moz-transition: all 5s ease-in-out;
-      -webkit-transition: all 5s ease-in-out;
   }
 
 .mycoaching-name {
@@ -273,6 +268,13 @@ h3 {
 .form-container {
     text-align: center;
     margin-bottom: 40px;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 18px;
+    padding: 10px;
 }
 
 /*-------------------------------------------------Footer*/
@@ -347,6 +349,11 @@ footer {
     .hidden-sm-down {
         display: none;
     }
+
+     .denisse2 {
+          background-position: center;
+          background-position-x: -360px;
+     }
 }
 
 @media  (max-width: 767px) {
