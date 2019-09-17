@@ -6,13 +6,13 @@ This website will offer all women that have just arrived in Sweden, the opportun
 ## UX
 This project was a tailored development for Denisse, who is an expat and coach. She started her website on WordPress but struggled and did not get it the way she wanted. She did not have a clear objective of what she wanted to accomplish with her site.
 
-Her original website [here](https://github.com/Mlince79/WingsAndInspiration/blob/master/uxStrategy/Original%20home.jpg).
+Her original website check [here](https://github.com/Mlince79/WingsAndInspiration/blob/master/uxStrategy/Original%20home.jpg).
 
 While listening to her story and after little research, we came up with the idea of focusing her coaching efforts on a specific and fascinating group in Sweden, Expat women.
 
 The number of women coming into the country has been growing for the past 18 years, reaching its highest peak in 2016 with 71,859.
 
-The number of immigrants per year from 2000 can be check [here](https://github.com/Mlince79/WingsAndInspiration/blob/master/uxStrategy/antal-invandrade-per-ar-fran-ar-2000%20(1).jpeg)
+The number of immigrants per year from 2000 checks them [here](https://github.com/Mlince79/WingsAndInspiration/blob/master/uxStrategy/antal-invandrade-per-ar-fran-ar-2000%20(1).jpeg)
 
 Denisse has as a personal call. She is passionate about helping women that are going through the process of:
 - understanding a new culture,
@@ -42,9 +42,9 @@ The whole scope [here](https://github.com/Mlince79/WingsAndInspiration/blob/mast
 
 The scope level in phase 1 will be:
 - Home - where the user can read a callout and book a first 30 min free session.
-- About me - the user will get to know Denisse's biography.
-- My coaching - the user will get to know about Denisse coaching, and her reviews.
-- On big screensand tablets a Nav-alert will be visible offering the 30 min free session.
+- About Me - the user will get to know Denisse's biography.
+- My Coaching - the user will get to know about Denisse's coaching and her reviews.
+- On big screens and tablets, a Nav-alert will be visible, offering the 30 min free session.
 
 ### Features Left to Implement
 
@@ -57,14 +57,12 @@ The scope level in phase 1 will be:
 - Bootstrap (3.3.7)
 
 ## Testing
-As soon as women arrive at the Home, they will see a clear offer. In the "About Me" section, they can read a bit about Denisse's background, and her photo. In "My Coaching" they will lean  more about to who is this coaching for and what it is offer.
-They can request a free 30 min session leaving just their email and a short message about them.
-If the user tries to submit the contact form with an invalid email address, there will be an error noting the invalid email address.
+As soon as women arrive at the Home, they will see a clear offer. In the "About Me" section, they can read a bit about Denisse's background, and her photo. In "My Coaching," they will learn more about who is this coaching for and what it is offering. They can request a free 30 min session leaving just their email and a short message about them. If the user tries to submit the contact form with an invalid email address, there will be an error noting the invalid email address.
 
 They are also able to view Denisse's social media profiles via clicking on the icons in the footer. All links will open in a new tab using 'target="_blank"'
 
 It is a responsive website.
-This site has been tested across multiple browsers (Chrome, Safari, Internet Explorer, FireFox) and on multiple mobile devices (iPhone 4, 5, 7: Chrome and Safari, iPad, Samsung Galaxy)
+This site tested across multiple browsers (Chrome, Safari, Internet Explorer, FireFox) and on multiple mobile devices (iPhone 4, 5, 7: Chrome and Safari, iPad, Samsung Galaxy)
 
 HTML and CSS code were both validated at the following pages:
 - https://validator.w3.org/#validate_by_uri+with_options
@@ -84,7 +82,7 @@ To run locally, the user can clone this repository directly into the editor of t
 ### Media
 - The photos used in this site are from the owner of the project.
 
-### Acknowledgements
+### Acknowledgments
 
 - I have received inspiration for this project, Denisse Olsson.
 
