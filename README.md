@@ -6,19 +6,19 @@ This website will offer all women that have just arrived in Sweden, the opportun
 ## UX
 This project was a tailored development for Denisse, who is an expat and coach. She started her website on WordPress but struggled and did not get it the way she wanted. She did not have a clear objective of what she wanted to accomplish with her site.
  
-Her original website [here](https://github.com/Mlince79/WingsAndInspiration/blob/master/assets/images/Original%20home.jpg).
+Her original website [here](https://github.com/Mlince79/WingsAndInspiration/blob/master/uxStrategy/Original%20home.jpg).
  
 While listening to her story and after little research, we came up with the idea of focusing her coaching efforts on a specific and fascinating group in Sweden, Expat women.
  
 The number of women coming into the country has been growing for the past 18 years, reaching its highest peak in 2016 with 71,859.
  
-The number of immigrants per year from 2000 can be check [here](https://github.com/Mlince79/WingsAndInspiration/blob/master/assets/images/antal-invandrade-per-ar-fran-ar-2000%20(1).jpeg)
+The number of immigrants per year from 2000 can be check [here](https://github.com/Mlince79/WingsAndInspiration/blob/master/uxStrategy/antal-invandrade-per-ar-fran-ar-2000%20(1).jpeg)
  
 Denisse has as a personal call. She is passionate about helping women that are going through the process of:
 - understanding a new culture,
 - learning a new language,
 - getting a job or working in a different cultural environment.
-She wants to increase her contact with newcomers' women in Sweden. So users will benefit from her coaching, adapting quickly to their new country. In the future, she Expects that Wings And Inspiration became a more significant concept. Maybe the most prominent network where they can find calm and caring about their situation in life. 
+She wants to increase her contact with newcomers' women in Sweden. So users will benefit from her coaching, adapting quickly to their new country. In the future, she Expects that Wings And Inspiration became a more significant concept. Maybe the most prominent network where new women living in Sweden can find calm and caring about their situation in life. 
  
 Now, there are several groups created by Expat women where they can help each other. However, there is no personal coaching service offered.
 
@@ -36,7 +36,7 @@ Colors and fonts that she requested [here](https://github.com/Mlince79/WingsAndI
 ## Features
 
 In terms of the scope, Denisse has a big vision with the website where she will be able to offer online bookings for her customers and allowed them to execute the online payment, among other features.
-The whole scope [here] (https://github.com/Mlince79/WingsAndInspiration/blob/master/uxStrategy/Scope%20level.jpg)
+The whole scope [here](https://github.com/Mlince79/WingsAndInspiration/blob/master/uxStrategy/Scope%20level.jpg)
  
 ### Existing Features
 
@@ -44,7 +44,7 @@ The scope level in phase 1 will be:
 - Home - where the user can read a callout and book a first 30 min free session. 
 - About me - the user will get to know Denisse's biography. 
 - My coaching - the user will get to know about Denisse coaching, and her reviews.
--On big screens a Nav-alert will be visible offering the 30 min free session. 
+- On big screensand tablets a Nav-alert will be visible offering the 30 min free session. 
 
 ### Features Left to Implement
 
@@ -57,7 +57,7 @@ The scope level in phase 1 will be:
 - Bootstrap (3.3.7)
 
 ## Testing
-As soon as women arrive at the Home, they will see a clear offer. In the "About Me" section, they can read a bit about Denisse's background, and her photo.  
+As soon as women arrive at the Home, they will see a clear offer. In the "About Me" section, they can read a bit about Denisse's background, and her photo. In "My Coaching" they will lean  more about to who is this coaching for and what it is offer. 
 They can request a free 30 min session leaving just their email and a short message about them. 
 If the user tries to submit the contact form with an invalid email address, there will be an error noting the invalid email address. 
 
