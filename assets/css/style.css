@@ -45,7 +45,7 @@ article {
     width: 100%;
 }
 
-.brand-header-tex-wrapper.no-gutters {
+.brand-header-tex-wrapper {
     font-family: 'Sacramento', cursive;
     font-size: 70px;
     display: inline-block;
@@ -268,13 +268,6 @@ h3 {
 .form-container {
     text-align: center;
     margin-bottom: 40px;
-}
-
-p {
-    margin-top: 0;
-    margin-bottom: 1rem;
-    font-size: 18px;
-    padding: 10px;
 }
 
 /*-------------------------------------------------Footer*/
